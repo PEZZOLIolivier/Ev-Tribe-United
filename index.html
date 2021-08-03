@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" class="h-100">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,13 +13,51 @@
   crossorigin="anonymous"
   > 
 
+  <link href="./style.css" rel="stylesheet" type="text/css">
+
   <title>Association Tribe United</title>
 
 </head>
 
-<body>
+<body class="backgroundGradiant d-flex flex-column h-100">
+
+  <!-- Navbar with collapse -->
+  <nav class="navbar navbar-expand-lg navbar-light navbarGradiant navbar-dark px-1">
+    <a href="#" class="navbar-brand mb-0">
+      <img src="./ressources/TU_logo.png" alt="Tribe United Logo" class="d-inline-block">
+    </a>
+    <button 
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link active">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="team.html" class="nav-link">Team</a>
+        </li>
+        <li class="nav-item">
+          <a href="events.html" class="nav-link">Events</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
 
   
+  <!-- Sticky footer -->
+  <footer class="text-center footerGradiant clear clearfix text-white mt-auto py-2">© Tous droits réservés Association Tribe United 2021</footer>  
+
   <!-- Bootstrap bundle with Popper -->
   <script 
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 

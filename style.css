@@ -1,0 +1,9 @@
+.navbarGradiant, .footerGradiant {
+  background: rgb(28,16,204);
+  background: radial-gradient(circle, rgba(28,16,204,0.9) 5%, rgba(186,10,170,1) 29%, rgba(28,16,204,1) 100%);
+}
+
+.backgroundGradiant {
+  background: rgb(28,16,204);
+  background: radial-gradient(circle, rgba(28,16,204,0.29) 5%, rgba(186,10,170,0.29) 29%, rgba(28,16,204,0.29) 100%);
+}
