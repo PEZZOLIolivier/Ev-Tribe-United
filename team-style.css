@@ -1,0 +1,50 @@
+.our-team{
+  text-align: center;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease 0s;
+}
+.our-team .pic{
+  background: radial-gradient(circle, rgba(28,16,204,1) 5%, rgba(186,10,170,1) 29%, rgba(28,16,204,1) 100%);
+  transition: all 0.3s ease 0s;
+}
+.our-team:hover .pic{
+  padding: 10px;
+  border-radius: 10px;
+  transform: scale(0.6) translateY(-10%);
+}
+.our-team .pic img{
+  width: 100%;
+  height: auto;
+}
+.our-team .team-content{
+  width: 100%;
+  padding: 7px 15px;
+  background: radial-gradient(circle, rgba(28,16,204,1) 5%, rgba(186,10,170,1) 29%, rgba(28,16,204,1) 100%);
+  position: absolute;
+  bottom: -30%;
+  right: 0;
+  opacity: 0;
+  transition: all 0.3s ease 0s;
+}
+.our-team:hover .team-content{
+  opacity: 1;
+  bottom: -10px;
+}
+.our-team .title{
+  font-size: 22px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 0 5px 0;
+}
+.our-team .post{
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  font-style: italic;
+  text-transform: capitalize;
+  margin: 0 0 5px 0;
+}
